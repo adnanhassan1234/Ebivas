@@ -1,0 +1,279 @@
+/* = ------------  blog_details css  ----------- = */
+.blog_details .featured_content span {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+.blog_details .entry-date__main {
+  position: absolute;
+}
+.blog_details .entry-date__main .entry-date {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 2;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-color: #0096d9;
+}
+.blog_details .strategic {
+  display: block;
+  padding: 40px 45px;
+  position: relative;
+  border: none;
+  border-radius: 6px;
+  font-weight: 400;
+  margin: 35px 0 35px 0;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #0096d9;
+  color: #fff;
+}
+.blog_details .strategic .fa {
+  font-size: 28px;
+}
+.blog_details .blog_tags .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid #000000;
+  color: #000000;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+}
+.blog_details .blog_tags .social-links a:hover {
+  background: #0096d9;
+  border: 1px solid #0096d9;
+  color: #fff;
+  transition: 0.5s;
+}
+.blog_details .blog_tags span {
+  color: black;
+}
+.blog_details .comments_box img {
+  float: left;
+  text-align: center;
+  width: 81px;
+  height: 81px;
+  display: block;
+  overflow: hidden;
+}
+
+/* blog comments */
+.blog-comment::before,
+.blog-comment::after,
+.blog-comment-form::before,
+.blog-comment-form::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.blog_details .blog-comment ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog_details .blog-comment img {
+  opacity: 1;
+  filter: Alpha(opacity=100);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.blog_details .blog-comment img.avatar {
+  position: relative;
+  float: left;
+  margin-left: 0;
+  margin-top: 0;
+  width: 65px;
+  height: 65px;
+}
+
+.blog_details .blog-comment .post-comments {
+  border: 1px solid #f3f1f1;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  margin-right: 0px;
+  padding: 10px 20px;
+  position: relative;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background: #fff;
+  color: #6b6e80;
+  position: relative;
+  background-color: #f5faff;
+}
+
+.blog_details .blog-comment .meta {
+  font-size: 13px;
+  color: #aaaaaa;
+  padding-bottom: 27px;
+  margin-bottom: 10px !important;
+  border-bottom: 1px solid #eee;
+}
+.blog_details .blog-comment .meta a {
+  background-color: #000000;
+  padding: 6px 19px;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+}
+.blog_details .blog-comment .meta a:hover,
+.blog_details .btn:hover {
+  background-color: #0096d9;
+  color: white;
+  transition: 0.7s;
+  border: 1px solid #0096d9;
+}
+@media (max-width: 475px) {
+  .blog_details .pull-right {
+    float: right;
+    padding-block: 15px;
+  }
+}
+.blog_details .leave_reply input {
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+.blog_details .leave_reply textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #eee;
+}
+.blog_details .save-info {
+  display: flex;
+  align-items: flex-end;
+}
+.blog_details .checkbox_item {
+  transform: translate(0px, 14px) !important;
+}
+.blog_details span {
+  color: #898a9c;
+}
+.blog_details .btn {
+  border-radius: 50px;
+}
+
+/*  left_deatils css */
+.blog_details .left_deatils .widget.with-title {
+  padding: 30px 20px 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+.blog_details .left_deatils input[type="text"] {
+  width: 100%;
+  color: #8093a8;
+  padding: 13px 15px 14px;
+  border-radius: 3px;
+  font-weight: 400;
+  background-color: #fff;
+  text-transform: inherit;
+  border: 1px solid rgba(0, 43, 92, 0.08);
+  font-size: 14px;
+  outline: none;
+  line-height: inherit;
+  letter-spacing: 0px;
+}
+.blog_details .left_deatils .widget label {
+  display: flex;
+  align-items: center;
+}
+.blog_details .left_deatils .widget label button {
+  display: flex;
+  align-items: center;
+  transform: translateX(-30px);
+  border: none;
+  padding: 4px;
+  background-color: white;
+}
+.blog_details .left_deatils .widget ul li a {
+  box-shadow: none !important;
+  background-color: white;
+  padding: 8px;
+  color: #000000;
+  font-weight: 500;
+}
+.blog_details .left_deatils .widget ul li a:hover {
+  color: #000000;
+}
+.blog_details .left_deatils .widget ul li {
+  border-bottom: 1px solid #f3f1f1;
+}
+.blog_details .left_deatils .widget ul li a:after {
+  content: "";
+}
+.blog_details .left_deatils .widget-title {
+  border-left: 3px solid #0096d9;
+}
+.blog_details .left_deatils .recent_post img {
+  width: 100px;
+}
+
+.blog_details .left_deatils .post-date:hover {
+  background-color: transparent;
+}
+.business_visa .left_deatils .recent_post ul li:hover {
+  background-color: transparent;
+  transition: 0.7s;
+  color: black;
+}
+.business_visa .left_deatils .recent_post ul li:hover .widget-post .fa {
+  color: black;
+}
+.blog_details .left_deatils .recent_post ul li {
+  display: flex;
+  margin-top: 17px;
+}
+.blog_details .left_deatils .recent_post span {
+  font-size: 13px;
+}
+.blog_details .study_visa {
+  padding: 40px 20px 40px 20px;
+  background-color: #202537;
+}
+.blog_details .study_visa .bootom_visa h5 {
+  color: black;
+  padding: 12px;
+  border-radius: 5px;
+}
+.blog_details .study_visa .bootom_visa {
+  border-radius: 50px;
+  background-color: #fff;
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+}
+.blog_details .study_visa .bootom_visa .fa {
+  font-size: 45px;
+  color: #0096d9;
+}
+.blog_details .study_visa .bootom_visa .number {
+  color: #0096d9;
+  font-weight: 600;
+}
+.blog_details .study_visa .bootom_visa .call_now {
+  color: #000000;
+}

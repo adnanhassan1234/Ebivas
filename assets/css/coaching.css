@@ -1,0 +1,217 @@
+/* -------- business_visa css ------- */
+
+.business_visa {
+  background-color: #f5faff;
+}
+/* left_side css */
+.business_visa ul {
+  padding-left: 0rem;
+}
+.business_visa .left_deatils ul li {
+  list-style: none;
+  margin-top: 12px;
+  background-color: #fff;
+}
+.business_visa .left_deatils ul li a {
+  display: block;
+  padding: 20px 25px 20px 25px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  box-shadow: 0 0 6px 0px rgba(29, 33, 67, 0.1);
+  color: black;
+}
+.business_visa .left_deatils ul li.active {
+  background-color: #0096d9;
+}
+.business_visa .left_deatils ul li:hover,
+.business_visa .left_deatils .widget.widget-download .download:hover {
+  background-color: #0096d9;
+  transition: 0.7s;
+}
+.business_visa .left_deatils ul li.active a,
+.business_visa .left_deatils ul li:hover a,
+.business_visa .left_deatils .widget.widget-download .download:hover h6,
+.widget.widget-download .download:hover p,
+.widget.widget-download .download:hover .line,
+.business_visa .left_deatils .widget-download .download:hover .fa {
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.business_visa .left_deatils ul li a:after {
+  content: "\f0dd";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 36%;
+  right: 20px;
+  color: inherit;
+  transform: rotate(-90deg);
+  -webkit-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+  z-index: 1;
+  opacity: 0.4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.business_visa .left_deatils .widget.widget-download .download {
+  margin: 0 4px 10px;
+  padding: 28px 22px !important;
+  border: 0;
+  background-color: #fff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+
+.business_visa .left_deatils .widget-download .fa {
+  font-size: 42px;
+  display: inline-block;
+  position: relative;
+  color: #0096d9;
+  padding-inline: 14px;
+}
+.business_visa .left_deatils .line {
+  border-left: 1px solid #aaa;
+  opacity: 0.8;
+  height: 42px;
+}
+
+.business_visa .left_deatils .appointment_service .layer-content {
+  padding: 15px;
+  background-color: #0096d9;
+}
+.business_visa .left_deatils .immigration_assessment {
+  padding: 30px 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+.business_visa .left_deatils .immigration_assessment input,
+.business_visa .left_deatils .immigration_assessment select,
+.business_visa .left_deatils .immigration_assessment button {
+  height: 55px;
+  border: 1px solid #ece9e9;
+}
+.business_visa .left_deatils .immigration_assessment textarea {
+  border: 1px solid #ece9e9;
+}
+.business_visa .left_deatils .immigration_assessment input::placeholder {
+  color: #aaa;
+}
+.business_visa .left_deatils .immigration_assessment button {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #0096d9;
+  color: white;
+  font-weight: bold;
+}
+/* right_side css */
+.business_visa .right_deatils {
+  background-color: #fff;
+  padding: 20px;
+}
+.business_visa .right_deatils .counter_details {
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+.business_visa .right_deatils .item {
+  padding: 25px;
+}
+.business_visa .right_deatils .border_left {
+  border-left: 1px solid #f3f0f0;
+}
+.business_visa .right_deatils .item .fa {
+  font-size: 38px !important;
+  color: #0096d9;
+}
+
+#counter .counter_details {
+  justify-content: center;
+}
+
+.business_visa #counter .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business_visa #counter .item i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.business_visa #counter .item .count {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.business_visa #counter .item .text {
+  margin: 0;
+}
+
+.business_visa #counter .plus_sign {
+  font-size: 2rem;
+  font-weight: bold;
+  transform: translate(6px, -6px);
+}
+.business_visa #counter .margin_bottom {
+  margin-bottom: -10px;
+}
+@media (max-width: 991px) {
+  .business_visa #counter .item {
+    border-bottom: 1px solid #f3f0f0;
+  }
+  .business_visa .right_deatils .border_left {
+    border-left: none;
+  }
+}
+/* business_choose__sec css */
+.business_visa .business_choose__sec {
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+.business_visa .business_choose__sec ul li {
+  list-style: none;
+  line-height: 30px;
+  color: #898a9c;
+}
+.business_visa .business_choose__sec ul li p {
+  margin-left: 12px;
+}
+.business_visa .business_choose__sec ul .fa {
+  list-style: none;
+  line-height: 36px;
+  color: #0096d9;
+}
+@media (max-width: 1416px) {
+  .business_visa .business_choose__sec {
+    padding: 12px !important;
+  }
+}
+@media (max-width: 430px) {
+  .business_visa .business_choose__sec ul li {
+    font-size: 14px;
+  }
+}
+
+/* ------- coaching_service css -------- */
+.ielts_coaching .fa {
+  font-size: 35px;
+  color: #0096d9;
+}
+/* skill_professional */
+.skill_professional img {
+  width: 75px;
+  height: 75px;
+  padding: 12px;
+  border: 4px solid;
+  border-radius: 3px;
+  color: rgba(241, 237, 237, 0.8);
+}

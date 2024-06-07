@@ -1,0 +1,96 @@
+/* -------- team_details css  ---------- */
+.team_details .team_details,
+.team_details .right_details .box {
+  box-shadow: 0 0 9px 0 rgba(29, 33, 67, 0.1);
+}
+
+.team_details table {
+  width: 100%;
+}
+.team_details .progress {
+  height: 10px;
+}
+.team_details .progress-bar {
+  background-color: #0096d9;
+}
+.slidecontainer input {
+  width: 100%;
+}
+
+.team_details .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0096d9;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+.team_details .social-links a:hover {
+  background: #000000;
+  text-decoration: none;
+  transition: 0.7s;
+}
+/* righ_side  */
+.team_details .right_details .box img {
+  width: 55px;
+  height: 55px;
+}
+.team_details .right_details .list_item {
+  width: 55px;
+  height: 55px;
+}
+.team_details .right_details .fa {
+  color: #0096d9;
+  font-size: 10px;
+}
+.team_details .right_details .btn {
+  width: 100%;
+  font-weight: bold;
+}
+.team_details .right_details input,
+.team_details .right_details .btn {
+  height: 55px;
+  border: 1px solid #000000;
+}
+.team_details .right_details input,
+.team_details .right_details textarea {
+  border-radius: 0;
+  background-color: #F5FAFF;
+  border: 0.5px solid #ebe6e6;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.team_details .right_details .read_more {
+  z-index: 1;
+  position: relative;
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.team_details .right_details .read_more::before {
+  content: "";
+  position: absolute;
+  top: 23px;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #1f2437;
+  z-index: -1;
+  transition: all 550ms;
+  border-radius: 2px;
+}
+
+.team_details .right_details .read_more .btn:hover {
+  color: #e8e8e8;
+}
+
+.team_details .right_details .read_more:hover::before {
+  width: 100%;
+}
